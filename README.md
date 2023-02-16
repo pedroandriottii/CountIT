@@ -1,10 +1,10 @@
-# Easy PDV
-O sistema de Ponto de Venda (PDV) é muito utilizado atualmente para ajudar na questão organizacional de pequenas e grandes empresas. Ele te ajuda no gerenciamento do estoque, na abertura e fechamento de caixa e para controlar trocas e devoluções de forma mais simplificada e autônoma.
+# CountIT
+O CountIT é baseado em um sistema de Ponto de Venda (PDV) é muito utilizado atualmente para ajudar na questão organizacional de pequenas e grandes empresas. Ele te ajuda no gerenciamento do estoque, na abertura e fechamento de caixa e para controlar trocas e devoluções de forma mais simplificada e autônoma.
 Essa ferramenta é essencial em vários negócios, porém, notamos que as vezes pode se tornar muito confusa pois muitas delas contém bastante funcionalidades irrelevantes que acabam só atrapalhando o usuário e são jogadas de forma desorganizada na tela, ofuscando assim algumas funcionalidades legais que poderiam estar sendo usadas mas estão sendo ofuscadas diante tantas informações.
 
 
 # Proposta
-A proposta do Easy PDV é simplificar esse sistema e colocar apenas ferramentas essenciais, com um layout minimalista e de simples entendimento. 
+A proposta do CountIT é simplificar esse sistema e colocar apenas ferramentas essenciais, com um layout minimalista e de simples entendimento. 
 
 # Equipe
 
