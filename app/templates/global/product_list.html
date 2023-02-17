@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountIT</title>
+</head>
+<body>
+    {% for product in products %}
+        <article>
+            <h2><a href="">{{ product.product_name }}</a></h2>
+            <p>ID: {{ product.product_id }}</p>
+            <p>Descrição:{{ product.product_description|linebreaksbr }}</p>
+            <p>Estoque: {{ product.product_stock }}</p>
+            <time>Registrado em {{ product.published_date }}</time>
+        </article>
+    {% endfor %}
+</body>
+</html>
