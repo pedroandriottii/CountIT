@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <form action="{% url 'login' %}" method="POST">{% csrf_token %}
+        <input type="text" placeholder="Usuário..." name="username">
+        <br>
+        <br>
+        <input type="password" placeholder="Senha..." name="password">
+        <br>
+        <br>
+        <input type="submit" value="Logar">
+        <a href="cadastro">Não possui Cadastro?</a>
+    </form>
+</body>
+</html>
