@@ -1,3 +1,4 @@
+{% extends 'global_templates/base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
 </head>
+{% block content %}
 <body>
     <form action="{% url 'login' %}" method="POST">{% csrf_token %}
         <input type="text" placeholder="Usuário..." name="username">
@@ -18,4 +20,5 @@
         <a href="cadastro">Não possui Cadastro?</a>
     </form>
 </body>
+{% endblock content %}
 </html>

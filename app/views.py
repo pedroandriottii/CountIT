@@ -4,6 +4,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as login_django
+
 #Define as funções que indicam o que será feito naquela rota e envia para o urls
 
 def home(request):
@@ -23,7 +24,6 @@ def cadastro(request):
         username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
-
         user = User.objects.filter(username=username).first()
         if user:
             return HttpResponse('Usuário Já Cadastrado!')
