@@ -4,3 +4,6 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'global/home.html')
 
+def userPage(request, id):
+    return render(request, 'global/userPage.html')
+
