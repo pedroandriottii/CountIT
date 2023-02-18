@@ -7,3 +7,6 @@ def home(request):
 def userPage(request, id):
     return render(request, 'global/userPage.html')
 
+def register(request):
+    return render(request, 'global/register.html')
+
