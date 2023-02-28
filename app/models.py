@@ -15,6 +15,7 @@ class Product(models.Model):
     sold = models.IntegerField()
     barcode = models.IntegerField()
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
+    cover = models.ImageField(upload_to='products/cover/%Y/%m/%d/')
     def __str__(self):
         return self.title
     
